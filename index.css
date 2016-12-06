@@ -1,0 +1,115 @@
+html {
+    position: relative;
+    height: 100%;
+    
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+    height: 100%;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+div.wrap{
+    
+    min-height: 100%;
+}
+
+div.titleBar{
+    position: relative;
+    display: inline-block;
+    width:100%;
+    left: 0;
+    right: 0; 
+    top: 0;
+    height: 10%;
+    background: linear-gradient(-40deg, gray, black);
+    font-size: 130%;
+
+}
+
+h1.umbc {
+    display:inline;
+    padding-left:100px;
+    background: -webkit-linear-gradient(left, #C10000, #FF4949);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+h1.select{
+    display:inline;
+    padding-left:15px;
+    background: -webkit-linear-gradient(left, #FFB025, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+div.content{
+    height:100vh;
+    
+}
+
+div.contact{
+    height:100vh;
+    padding-left:300px;
+    padding-top: 2vw;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+iframe{
+    width: 99.6%;
+    height: 93.5%;
+}
+
+div.nav ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+    left: 0;
+    padding-left:290px;
+    background: linear-gradient(-40deg, yellow, #FFB025);
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+li {
+    display:inline;
+    
+}
+
+li a {
+    
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display:inline-block;
+}
+
+li a:hover:not(.active) {
+    
+    background: linear-gradient(-30deg, #FFB025, #C10000);
+    color: #FFCC00;
+    border-radius: 0px 0px 15px 0px;
+}
+
+.active {
+    background: linear-gradient(-30deg, #606060, black);
+    color: #FFCC00;
+}
+
+.footer {
+    background: linear-gradient(-40deg, gray, black);
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    padding-top: 0.5vw;
+    color:#FFCC00;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+

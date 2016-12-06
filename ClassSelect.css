@@ -1,0 +1,104 @@
+html{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#requiredClasses{
+    width: 25%;
+    float: left;
+    padding-left: 3.5cm;
+    
+}
+
+#electiveClasses{
+    width: 25%;
+    float: left;
+    padding-left: 2cm;
+}
+
+#scienceClasses{
+    width: 25%;
+    float: left;
+    padding-left: 2cm;
+}
+
+#chosenClasses{
+    width: 85%;
+    float: none;
+    padding-left: 3.5cm;
+    text-align:center;
+}
+
+.classList{
+    width: 100%;
+}
+
+select{
+    width: 100%;
+}
+
+.rippleButton{
+    position: relative;
+    background: linear-gradient(+10deg, gray, black);
+    border: none;
+    font-size: 28px;
+    color: #FFCC00;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.rippleButton:after {
+    content: "";
+    background: gray;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.rippleButton:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+div.identification{
+    width: 90%;
+    padding-left: 1.5cm;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 8px 15px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type=text]:focus {
+    background-color: rgb(191,186,161);
+    border: 3px solid #555;
+}
+
+div.classSelectList{
+    width: 100%;
+}
+
+
+h2{
+    text-align: center;
+}
+
